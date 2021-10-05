@@ -40,7 +40,7 @@ album_id INT NOT NULL,
 FOREIGN KEY (artist_id) 
 REFERENCES artists (artist_id),
 FOREIGN KEY (album_id) 
-REFERENCES albums (album_id)
+REFERENCES albuns (album_id)
 ) engine = InnoDB;
 
 CREATE TABLE follower_artist(
@@ -72,7 +72,7 @@ VALUES ("Walter Phoenix"),
 INSERT INTO plans(name, plan_value)
 VALUES ("gratuito", 0),
 ("familiar", 7.99),
-("universitÃ¡rio", 5.99);
+("universitário", 5.99);
 
 INSERT INTO albuns(name, artist_id)
 VALUES ("Envious", 1),
