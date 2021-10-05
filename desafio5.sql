@@ -8,3 +8,4 @@ name AS cancao,
 FROM SpotifyClone.musics m
 ORDER BY `reproducoes` DESC, `cancao`
 LIMIT 2;
+

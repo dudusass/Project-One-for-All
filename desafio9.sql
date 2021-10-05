@@ -8,3 +8,4 @@ WHERE a.name LIKE CONCAT('%', artist_name, '%')
 ORDER BY `album`;
 END $$
 DELIMITER ;
+

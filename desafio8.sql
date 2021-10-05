@@ -9,3 +9,4 @@ DELETE FROM history WHERE user_id = OLD.user_id;
 END $$
 
 DELIMITER ;
+
