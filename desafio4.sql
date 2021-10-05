@@ -8,4 +8,3 @@ name AS artista,
 FROM SpotifyClone.artists AS a
 ORDER BY `seguidores` DESC, `artista`
 LIMIT 3;
-

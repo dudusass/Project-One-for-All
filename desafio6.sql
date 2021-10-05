@@ -6,4 +6,3 @@ ROUND(AVG(p.plan_value), 2) faturamento_medio,
 SUM(p.plan_value)faturamento_total
 FROM SpotifyClone.users AS u
 JOIN SpotifyClone.plans AS p ON u.plan_id = p.plan_id;
-

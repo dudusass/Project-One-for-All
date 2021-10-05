@@ -8,4 +8,3 @@ FROM SpotifyClone.history
 WHERE user_id = id);
 END $$
 DELIMITER ;
-
